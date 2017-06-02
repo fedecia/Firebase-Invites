@@ -24,8 +24,8 @@
 	</js-module>
 
 	<!-- (At least on iOS) users must be signed in with their Google account in order to be able to send an invite, so include the Google Sign-In plugin -->
-	<dependency id="cordova-plugin-googleplus" />
-
+<!-- 	<dependency id="cordova-plugin-googleplus" />
+ -->
 	<platform name="android">
 		<config-file parent="/*" target="res/xml/config.xml">
 			<feature name="FirebaseInvites">
